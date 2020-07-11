@@ -55,6 +55,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_CONFIG := kitakami_sumire_defconfig
+TARGET_KERNEL_SOURCE := kernel/sony/msm8994
 
 # Kernel configurations
 BOARD_KERNEL_BASE := 0x00000000
